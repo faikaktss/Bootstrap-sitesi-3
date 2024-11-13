@@ -1,0 +1,82 @@
+.circle{
+    content: "";
+    width: 375px;
+    height: 375px;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(225,2,236,1) 76%, rgba(0,212,255,1) 100%);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 44rem;
+    margin-top: -20rem;
+    position: relative;
+}
+
+.img-phone{
+    max-width: 60%;
+}
+
+.circle::before{
+    content: "X";
+    color: rgb(234, 0, 255);
+    font-size: 28px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transform: rotate(-10deg);
+}
+.circle::after{
+    content: "*";
+    color: blueviolet;
+    font-size: 29px;
+    position: absolute;
+    transform: rotate(10deg);
+    right: 0;
+    top: 0;
+}
+
+.testimonial-section{
+    background-color: #8321e6;
+    width: 100% !important;
+    height: 350px;
+}
+
+.circle-2{
+    content: "";
+    width: 230px;
+    height: 230px;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(225,2,236,1) 76%, rgba(0,212,255,1) 100%);
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -58rem;
+}
+
+.circle-2::before{
+    content: "*";
+    color:  #8321e6;
+    font-size: 30px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transform: rotate(-15deg);
+}
+
+.circle-2::after{
+    content: "X";
+    color: #8321e6;
+    font-size: 25px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: rotate(15deg);
+    margin-right:-2rem;
+}
+
+.img-phone-2{
+    max-width: 90%;
+    margin-left: 3rem;
+
+}

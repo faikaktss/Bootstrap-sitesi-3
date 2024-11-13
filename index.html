@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Start Bootstrap</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <!-- navbarın başlangıç kısmı-->
+    <header>
+        <nav class="navbar navbar-expand-lg bg-white shadow-sm"><!--shadow sm: navın altında gölge oluşturur-->
+            <div class="container">
+              <a class="navbar-brand" href="#">Start Bootstrap</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto d-flex align-items-center">
+                  <a class="nav-link active" aria-current="page" href="#">Features</a>
+                  <a class="nav-link" href="#">Download</a>
+                  <a class="nav-link" href="#">
+                    <div class="d-flex align-items-center">
+                    <button type="button" class="btn btn-primary rounded-5" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <i class="bi bi-chat-dots"></i>
+                        Send feed back
+                    </button></a>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </nav>
+    </header>
+    
+    <!--herosection-->
+    <div class="hero-container p-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <div class="display-1">
+                        Showcase your app beautifully.
+                    </div>
+                    <p class="my-4 text-muted fs-5">Launch your mobile app landing page faster with this free, open source theme from Start Bootstrap!</p>
+                </div>
+                <div class="row">
+                    <div class="col-auto">
+                        <a href="/">
+                            <img src="/CLASSROM-ÖDEV/WT-9964/app-store-badge.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="col-auto">
+                        <a href="/">
+                            <img src="/CLASSROM-ÖDEV/WT-9964/app-store-badge.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="circle">
+                        <div class="img-phone ">
+                            <img src="/CLASSROM-ÖDEV/WT-9964/phone-screen.png" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--testimonial-section-->
+    <div class="textimonial-container ">
+        <div class="py-2">
+            <div class="text-center text-white display-5 fw-semibold px-4 testimonial-section py-5">
+                "An intuitive solution to a common problem that we all face, wrapped up in a single app!
+            </div>
+            <div class="text-center">
+                <img src="/CLASSROM-ÖDEV/WT-9964/tnw-logo.svg" class="text-white" alt="TWN">
+            </div>
+        </div>
+    </div>
+
+    <!--features container-->
+    <div class="features-container ">
+        <div class="container ">
+            <div class="row">
+            <div class="col-lg-4 d-flex justify-content-center">
+                <div class="circle-2">
+                    <div class="img-phone-2">
+                         <img src="/CLASSROM-ÖDEV/WT-9964/phone-screen.png" width="100%" height="400px" alt=""> 
+                    </div> 
+                </div>
+            </div>
+            <div class="col-lg-8">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div>
+                            <div>
+                                <i class="bi bi-headset"></i>
+                            </div>
+                        </div>
+                    </div>
+                <div class="col-lg-6"></div>
+            </div>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <!-- Modal'ın açılma kısmı -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
